@@ -1,0 +1,383 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body {
+	font-family: 'DM Sans', sans-serif;
+	font-size:  18px;
+	background-color: #f4f5f7;
+	width: 1440px;
+}
+.flex {
+	display: flex;
+}
+
+/***MAIN NAVIGATION*****/
+.header-nav {
+	align-items: center;
+	justify-content: space-between;
+	height: 72px;
+	background-color: #fff;
+	border: 1px solid #E5E7EB;
+	padding: 21px 100px 21px 100px;
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.nav-items {
+	gap:  24px;
+}
+.nav-links {
+	list-style-type: none;
+}
+.nav-link {
+	text-decoration: none;
+	color: #65676b;
+}
+.nav-link:hover {
+	color: #f9690e;
+}
+.nav-user-info {
+	align-items: center;
+}
+.notification-icon {
+	padding-right: 16px;
+}
+.user-avatar {
+	padding-right: 2px;
+}
+.user-avatar,
+.user-name {
+	filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25)); 
+}
+.user-name {
+	color: #000;
+	font-weight: 700;
+}
+
+/***MAIN CONTAINER*****/
+.main-container {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	padding: 42px 100px 41px 100px;
+}
+
+/****CONTAINER - LEFT****/
+.container-left {
+	margin-right: 20px;
+	background-color: #fff;
+	border-radius: 5px;
+	width: 317px;
+	height: 396px;
+	order: 1;
+	flex-wrap: wrap;
+}
+.milestones-container {
+	padding:  20px 24px 20px 20px;
+}
+.milestones-container h3 {
+	font-size: 16px;
+	font-weight: 700;
+	color: #595959;
+	margin-bottom: 24px;
+}
+.milestone-info {
+	flex-direction: column;
+	gap: 32px;
+}
+.milestone-text {
+	gap:  12px;
+	font-size: 16px;
+	color: #65676b;
+}
+.view-milestones {
+	color: #f9690e;
+	font-size: 16px;
+	font-weight: 700;
+}
+.view-milestones:hover {
+	text-decoration: none;
+	font-size: 17px;
+}
+.milestones-view {
+	padding-top: 26px;
+}
+
+/****CONTAINER - MIDDEL****/
+.container-middel {
+	padding-right: 22px;
+	width: 623px;
+	flex-direction: column;
+	order: 2;
+}
+/****SHARE_BOX****/
+.share-box {
+	padding: 16px 24px 16px 24px;
+	background-color: #fff;
+	border-radius: 5px;
+	height: 77px;
+	margin-bottom: 20px;
+	gap: 16px;
+	align-items: center;
+}
+.share-input {
+	width: 529px;
+	padding: 12px 24px 12px 24px;
+	border-radius: 5px;
+	border: 1px solid #c5c5c5;
+	background-color: #fff;
+}
+.add-img {
+	margin-left: -50px;
+}
+/****SHARE-BOX-ONE****/
+.share-box-one {
+	padding: 16px 24px 17px 24px;
+	background-color: #fff;
+	border-radius: 5px;
+	margin-bottom: 23px;
+}
+.user-info {
+	align-content: center;
+	justify-content: space-between;
+}
+.user {
+	gap: 12px;
+	padding-bottom: 16px;
+	align-items: center;
+}
+.user-name h4 {
+	font-size: 16px;
+	font-weight: 700;
+}
+.user-name p {
+	font-size: 16px;
+	font-weight: 400;
+}
+.user-box-one-text {
+	font-size:  16px;
+	font-weight: 400;
+	padding-bottom: 16px;
+}
+.btn-report {
+	padding: 6px 12px 6px 12px;
+	align-items: center;
+	gap:  10px;
+	color: #65676b;
+	font-size: 16px;
+	font-weight: 400;
+	border: 1px solid #c5c5c5;
+	border-radius: 5px;
+	background-color: #fff;
+	cursor: pointer;
+}
+.btn {
+	padding: 6px 12px;
+	gap:  10px;
+	border-radius: 5px;
+	border: 1px solid #c5c5c5;
+	background-color: #fff;
+	align-items: center;
+	font-size: 16px;
+	font-weight: 400;
+	color: #65676b;
+	cursor: pointer;
+}
+.buttons {
+	gap:  16px;
+}
+
+/***SHARE-BOX-TWO***/
+.share-box-two {
+	background-color: #fff;
+	border-radius: 5px;
+}
+.user-box-two {
+	align-items: center;
+	justify-content: space-between;
+	gap:  16px;
+	padding: 13px 24px 16px 24px;
+}
+.user-two {
+	gap:  16px;
+}
+.practice-img {
+	width: 100%;
+
+}
+.box-two-text {
+	padding: 16px 24px 16px 24px;
+	color: #000;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 21px;
+}
+.buttons2 {
+	padding: 0px 0px 19px 24px;
+	gap:  16px;
+}
+
+/****CONTAINER - RIGHT****/
+.container-right {
+	border-radius: 5px;
+	flex-direction: column;
+	order: 3;
+	flex-wrap: wrap;
+}
+.container-right-one {
+	width:  258px;
+	order: 4;
+}
+
+.img-user-working {
+	width: 100%;
+}
+/***TRENDING POSTS*****/
+.container-right-two {
+	order: 5;
+	flex-wrap: wrap;
+}
+.trending-posts {
+	width: 263.86px;
+	flex-direction: column;
+	gap:  24px;
+	background-color: #fff;
+	border-radius: 5px;
+	padding: 20px 25px 20px 20px;
+	
+}
+.user-post {
+	align-items: center;
+	justify-content: space-between;
+}
+.trending-posts h4 {
+	font-size: 16px;
+	font-weight: 700;
+	color: #000;
+	margin-bottom: 11px;
+}
+.user-post p {
+	color: #65676b;
+}
+.stories-view {
+	margin-top: -24px;
+}
+
+/***MOBILE NAV ******/
+.btn-mobile-nav {
+	border: none;
+	background-color: transparent;
+	float: right;
+	display: none;
+	cursor: pointer;
+}
+.icon-mobile-nav {
+	width: 30px;
+	height: 30px;
+}
+.icon-mobile-nav[id="close-outline"]{
+	display: none;
+}
+
+@media only screen and (max-width: 768px)  {
+	body {
+		width: 768px;
+	}
+	.btn-mobile-nav {
+	  	display: block;
+  		z-index:  1000;
+  }
+  .nav-items,
+  .nav-user-info {
+  	display: none;
+  }
+  .header-nav {
+  	padding: 21px 60px 21px 20px;
+  }
+  .main-container {
+  	padding: 42px 20px;
+  	grid-template-columns: repeat(1, 1fr);
+  	gap: 20px;
+  	width: 688px;
+  }
+  .container-left {
+  	width: 334px;
+  	height: 417px;
+  	order: 1;
+  	margin-right: 0;
+  }
+  .container-middel {
+  	width: 688px;
+  	padding-right: 0;
+  	order: 0;
+  }
+  .container-right {
+  	order: 3;
+  	margin-top: -436px;
+  	flex-wrap: wrap-reverse;
+  }
+  .container-right-one {
+  	width: 688px;
+  	margin-top: 20px;
+  	order: 2;
+  }
+  .container-right-two {
+  	width:  334px;
+  	height: 417px;
+  	order: 1;
+  }
+  .trending-posts {
+  	width: 344px;
+  }
+}
+
+@media only screen and (max-width: 414px) {
+	body {
+		width: 414px;
+	}
+	.header-nav {
+  	padding: 21px 40px 21px 20px;
+  }
+
+	.main-container {
+  	padding: 42px 0px;
+  	width: 414px;
+  	gap: 20px;
+  }
+  .container-middel {
+  	width: 414px;
+  	order: 0;
+  }
+	.container-left {
+  	width: 414px;
+  	height: 417px;
+  	order: 1;
+  	margin-right: 0;
+  }
+  .container-right {
+  	width: 414px;
+  	display: flex;
+  	flex-direction: column;
+  	margin-top: 0px;
+  	order: 2;
+  }
+	.container-right-one {
+  	width: 414px;
+  	margin-top: 20px;
+  	order: 5;
+  }
+  .container-right-two {
+  	width:  414px;
+  	order: 3;
+  }
+  .trending-posts {
+  	width:  414px;
+  	height: 417px;
+  	padding: 20px 35px 20px 20px;
+  }
+  .share-box-one {
+	padding: 16px 34px 17px 24px;
+  }
+  .user-box-two {
+	padding: 13px 34px 16px 24px;
+}
+}

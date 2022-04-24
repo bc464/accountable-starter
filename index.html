@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+    
+    <title>Accountable</title>
+    <link rel="stylesheet" href="style.css" />
+    <script defer src="script.js"></script>
+  </head>
+  <body>
+  <!-- MAIN NAVIGATION -->
+    <header>
+      <div class="header-nav flex">
+        <img src="Assets/Logo.svg" alt="logo" class="logo-icon">
+          <div class="nav-bar flex">
+            <ul class="nav-items flex">
+              <li class="nav-links"><a href="#" class="nav-link">Feed</a></li>
+              <li class="nav-links"><a href="#" class="nav-link">Milestones</a></li>
+              <li class="nav-links"><a href="#" class="nav-link">Groups</a></li>
+            </ul>
+          </div>
+          <div class="nav-user-info flex">
+            <img src="Assets/Notification.svg" alt="notification" class="notification-icon">
+            <img src="Assets/User Avatar 01.svg" alt="user avatar" class="user-avatar">
+            <p class="user-name">Evans Jerry</p>
+          </div>
+          <button class="btn-mobile-nav">
+            <img src="Assets/Hamburger Menu.svg" class="icon-mobile-nav" id="menu-outline">
+            <img src="Assets/Close.svg" class="icon-mobile-nav" id="close-outline">
+          </button>
+      </div class="header-nav">
+    </header>
+<!-- MAIN CONTAINER -->
+  <main class="main-container">
+
+<!-- CONTAINER - LEFT -->
+    <section class="container-left flex">
+      <div class="milestones-container">
+        <h3>Milestones</h3>
+        <div class="milestone-info flex">
+          <div class="milestone-text flex">
+            <img src="Assets/User Avatar 02.svg" alt="avatar2" class="user-avatar-milestone">
+            <p>Accountable has now raised $24m in seed funds! 😱</p>
+          </div>
+          <div class="milestone-text flex">
+            <img src="Assets/User Avatar 03.svg" alt="avatar3" class="user-avatar-milestone">
+            <p>Quit my job to work full time on my side project.</p>
+          </div>
+          <div class="milestone-text flex">
+            <img src="Assets/User Avatar 04.svg" alt="avatar4" class="user-avatar-milestone">
+            <p>Reached $2400 ARR, baby steps.</p>
+          </div>
+          <div class="milestone-text flex">
+            <img src="Assets/User Avatar 04-1.svg" alt="avatar4-1" class="user-avatar-milestone">
+            <p>Hired our first employee in our startup!</p>
+          </div>
+        </div>
+        <div class="milestones-view">
+          <a href="#" class="view-milestones">View all milestones &rarr;</a>
+        </div>
+      </div>
+    </section>
+
+<!-- CONTAINER MIDDEL -->
+    <section class="container-middel flex">
+      <div class="share-box flex">
+        <img src="Assets/User Avatar 01.svg" alt="user1 avatar" class="user-avatar1">
+        <input type="email" placeholder="Share what you've been working on..." class="share-input">
+        <div>
+          <img src="Assets/Add Image.svg" alt="icon-add-img" class="add-img">
+        </div>
+      </div>
+      <div class="share-box-one">
+        <div class="user-info flex">
+          <div class="user flex">
+            <img src="Assets/User Avatar 05.svg" alt="avatar 4" class="avatar-user5">
+              <div class="user-name">
+                <h4>Melissa Bay</h4>
+                <p>3h ago</p>
+              </div>
+            </div>
+            <div>
+              <button class="btn-report flex"><img src="Assets/Report.svg" alt="report-icon" class="report-icon">Report</button>
+            </div>
+          </div>
+          <p class="user-box-one-text">I've always been a perfectionist, but lately i've been dabbling with the idea of just releasing my product and iterating as I go.</p>
+          <div class="buttons flex">
+            <button class="btn btn-comments flex"><img src="Assets/Comments.svg" alt="comments" class="comments-icon">11 comments</button>
+            <button class="btn btn-reactions flex"><img src="Assets/Reaction.svg" alt="reactions" class="reaction-icon">24 reactions</button>
+          </div>
+        </div>
+      <div class="share-box-two">
+        <div class="user-share-box-two">
+            <div class="user-box-two flex">
+              <div class="user-two flex">
+                <img src="Assets/User Avatar 06.svg" alt="avatar 5" class="avatar-user6">
+              <div class="user-name">
+                <h4>David Rug</h4>
+                <p>6h ago</p>
+              </div>
+            </div>
+              <div>
+                <button class="btn btn-report flex"><img src="Assets/Report.svg" alt="report-icon" class="report-icon">Report</button>
+              </div>
+              </div>
+                <img src="Assets/Image.png" alt="image" class="practice-img">
+                <p class="box-two-text">Just released a blog on how and where to practice your frontend development skills. It's a list of 7 websites.</p>
+              <div class=" buttons2 flex">
+                <button class="btn btn-comments flex"><img src="Assets/Comments.svg" alt="comments" class="comments-icon">36 comments</button>
+                <button class="btn btn-reactions flex"><img src="Assets/Reaction.svg" alt="reactions" class="reaction-icon">121 reactions</button>
+              </div> 
+            </div>
+        </section>
+
+<!-- CONTAINER RIGHT -->
+    <section class="container-right flex">
+      <div class="container-right-one flex">
+        <img src="Assets/Overlay.png" alt="img-user-working" class="img-user-working">
+      </div>
+      <div class="container-right-two flex">
+        <div class="trending-posts flex">
+          <p>🔥 Trending Posts</p>
+            <div class="trending-post">
+              <h4>List of websites to practice your skills.</h4>
+              <div class="user-post flex">
+                <p>David Rug</p>
+                <p>6h ago</p>
+              </div>
+            </div>
+            <div class="trending-post">
+              <h4>Migrating to Next.js has been the best move.</h4>
+              <div class="user-post flex">
+                <p>May Day</p>
+                <p>6d ago</p>
+              </div>
+            </div>
+            <div class="trending-post">
+              <h4>Referral Marketing grew our project by 240%.</h4>
+              <div class="user-post flex">
+                <p>Sara Jack</p>
+                <p>4h ago</p>
+              </div>
+            </div>
+            <div class="milestones-view stories-view">
+              <a href="#" class="view-milestones">View all stories &rarr;</a>
+            </div>
+          </div></div>
+      </section>
+    </main>
+  </body>
+</html>
